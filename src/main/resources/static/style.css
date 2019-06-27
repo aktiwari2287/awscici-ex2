@@ -1,0 +1,24 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+
+}
+.grid-item {
+  border: 2px solid gray;
+  border-radius: 5%;
+  padding: 2%;
+}
+
+.profilePic{
+    width: 100%;
+    height: 100%;
+}
+
+.zoom {
+    transition: ease-in .2s;
+    border-radius: 5%;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.5);
+  }
